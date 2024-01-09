@@ -1,0 +1,32 @@
+.body{
+    background-color: rgb(221, 221, 221);
+    position: relative;
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(0, 0, 75);
+    position: fixed;
+    width: 100%;
+}
+
+.name{
+    font-size: 25px;
+    margin-left: 16px;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.main{
+    padding-top: 100px;
+    margin-left: 16px;
+}
+
+.nav-name{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
