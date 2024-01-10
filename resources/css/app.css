@@ -190,9 +190,17 @@
 }
 
 .icons{
+    margin-left: 3px;
     font-size: 30px;
     margin-right: 30px;
     color: rgb(120, 0, 0);
+}
+
+.icons:hover{
+    margin: auto;
+    color: rgb(221, 221, 221);
+    border: 1px solid rgb(120, 0, 0);
+    border-radius: 5px;
 }
 
 .cpyrght{

@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
         <div className='main'>
-            <h3 className='nav-name' id="About">About Me</h3>
+                <h3 className='nav-name' id="About">About Me</h3>
 
             <div className='row'>
                 <div className='col'>
