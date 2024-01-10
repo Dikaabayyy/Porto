@@ -6,25 +6,20 @@ import Header from './Header'
 import Footer from './Footer'
 import Home from './layouts/Home'
 import About from './layouts/About'
-import Skill from './layouts/Skill'
-import Education from './layouts/Education'
-import Experience from './layouts/Experience'
 import Project from './layouts/Project'
 
 function Example() {
     return (
         <div>
-
         <Header/>
 
-        <Home/>
-        <About/>
-        <Skill/>
-        <Education/>
-        <Experience/>
-        <Project/>
+            <div className='container scrollspy-example' data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-root-margin="0px 0px -25%" data-bs-smooth-scroll="true" tabIndex="0">
+                <Home/>
+                <About/>
+                <Project/>
+                <Footer/>
+            </div>
 
-        <Footer/>
         </div>
     );
 }
