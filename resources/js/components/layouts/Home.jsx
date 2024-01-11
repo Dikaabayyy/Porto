@@ -6,7 +6,7 @@ export default class Home extends Component {
         <div className='main'>
             <h3 className='nav-name' id="Home"></h3>
 
-            <div className='row'>
+            <div className='row home'>
                 <div className='col'>
                     <img src="img/1.jpg" alt="" className='img'/>
                 </div>
