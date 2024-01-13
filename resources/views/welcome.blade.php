@@ -38,7 +38,22 @@
                                 <img src="img/project/P1.jpg" class="detail-project" alt="">
                             </div>
                             <div class="col">
-
+                                <div class="dp">
+                                    In this project, my team and I developed a website for people who want to take an English test by offering several packages, such as TOEFL, IELTS, and others. This project is also the first time I have used the Laravel framework as part of the BackEnd, after previously using Codeigniter 3. I developed this project when I was still in college.
+                                </div>
+                                <div class="link">
+                                    <div class="modal-title">
+                                        Tools Used
+                                    </div>
+                                    <div>
+                                        <button class="btn-links">HTML</button>
+                                        <button class="btn-links">CSS</button>
+                                        <button class="btn-links">JavaScript</button>
+                                        <button class="btn-links">Laravel</button>
+                                        <button class="btn-links">Github</button>
+                                        <button class="btn-links">GIT</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -53,16 +68,31 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title" id="Project2ModalLabel">Makobat</h1>
-                        <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
                     </div>
 
                     <div class="modal-body">
                         <div class="row">
                             <div class="col">
-                                <img src="img/project/P2.jpg" alt="">
+                                <img src="img/project/P2.jpg" class="detail-project" alt="">
                             </div>
                             <div class="col">
-
+                                <div class="dp">
+                                    In this project, my team developed a website that can be used by doctors to monitor hypertension patients who are undergoing treatment. In this project, I became a FullStack developer using the Laravel framework. In this project I also had time to learn about APIs. With this project I was also able to complete my undergraduate studies with the title "Development of a Pharmaceutical Application for Monitoring Compliance in Website-Based Drug Consumption Using the Sprint Model".
+                                </div>
+                                <div class="link">
+                                    <div class="modal-title">
+                                        Tools Used
+                                    </div>
+                                    <div>
+                                        <button class="btn-links">HTML</button>
+                                        <button class="btn-links">CSS</button>
+                                        <button class="btn-links">JavaScript</button>
+                                        <button class="btn-links">Laravel</button>
+                                        <button class="btn-links">Github</button>
+                                        <button class="btn-links">GIT</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,16 +107,32 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title" id="Project3ModalLabel">Portfolio</h1>
-                        <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
                     </div>
 
                     <div class="modal-body">
                         <div class="row">
                             <div class="col">
-                                <img src="img/project/P3.jpg" alt="">
+                                <img src="img/project/P3.jpg" class="detail-project" alt="">
                             </div>
                             <div class="col">
-
+                                <div class="dp">
+                                    in this project I created a website that contains information about the skills and abilities that I have had as a web developer for more than 1 year. In this project I also studied and used the ReactJS FrontEnd framework which in the future I will develop further to pair with Laravel BackEnd.
+                                </div>
+                                <div class="link">
+                                    <div class="modal-title">
+                                        Tools Used
+                                    </div>
+                                    <div>
+                                        <button class="btn-links">HTML</button>
+                                        <button class="btn-links">CSS</button>
+                                        <button class="btn-links">JavaScript</button>
+                                        <button class="btn-links">ReactJS</button>
+                                        <button class="btn-links">Laravel</button>
+                                        <button class="btn-links">Github</button>
+                                        <button class="btn-links">GIT</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,8 +143,12 @@
 
     </head>
     <body class="body">
+        <div id="example">
 
-        <div id="example"></div>
+        </div>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 

@@ -18,7 +18,7 @@ export default class Project extends Component {
                             <p className="card-text">B-Air is a website for testing someone's English skills by providing several test package options.</p>
 
                             <div className='btn-p'>
-                                <button type="button" className="btn btn-project" data-bs-toggle="modal" data-bs-target="#Project2Modal">See More</button>
+                                <button type="button" className="btn btn-project" data-bs-toggle="modal" data-bs-target="#Project1Modal">See More</button>
                             </div>
                         </div>
                     </div>

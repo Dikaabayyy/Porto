@@ -86,43 +86,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media only screen and (max-width: 600px) {
-    .img{
-        width: 300px;
-    }
-
-    .row{
-        margin: auto;
-    }
-
-    .col{
-        width: 100%;
-    }
-    .about1{
-        margin: auto;
-    }
-
-    .main{
-        margin: auto;
-        width: 100%;
-    }
-
-    .skills-btn{
-        margin: auto;
-    }
-
-    .name-h{
-        margin-left: 0%;
-        margin-top: 100px;
-    }
-
-    .card-project{
-        align-self: center;
-        width: 100%;
-        margin: auto;
-    }
-}
-
 .hi{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2.5px 2px rgb(167, 0, 0)
@@ -293,6 +256,44 @@
     border-radius: 8px;
 }
 
+.dp{
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.link{
+    font-size: 15px;
+}
+
+.btn-links{
+    background-color: rgb(120, 0, 0);
+    color: rgb(221, 221, 221);
+    margin-top: 10px;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.btn-links:hover{
+    background-color: rgb(221, 221, 221);
+    color: rgb(120, 0, 0);
+    border: 1px solid rgb(120, 0, 0);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    font-weight: bold;
+}
+
 .close-btn{
     background-color: rgb(120, 0, 0);
     color: rgb(221, 221, 221);
@@ -342,10 +343,23 @@
     color: white;
     background-color: rgb(120, 0, 0)    ;
     border-radius: 5px;
+    font-weight: bold;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.submit-button:hover{
+    color: rgb(120, 0, 0);
+    font-weight: bold;
+    background-color: rgb(221, 221, 221);
+    border: 1px solid rgb(120, 0, 0);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
 }
 
 .icons{
@@ -378,4 +392,43 @@
     text-align: center;
     color: rgb(221, 221, 221);
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .img{
+        width: 300px;
+        min-width: 120px;
+    }
+
+    .row{
+        margin: auto;
+    }
+
+    .col{
+        width: 100%;
+    }
+    .about1{
+        margin: auto;
+    }
+
+    .main{
+        margin: auto;
+        width: 100%;
+    }
+
+    .skills-btn{
+        margin: auto;
+    }
+
+    .name-h{
+        margin-left: 0%;
+        margin-top: 100px;
+    }
+
+    .card-project{
+        align-self: center;
+        width: 100%;
+        margin: auto;
+    }
+
 }
