@@ -6,12 +6,12 @@ export default class Home extends Component {
         <div className='main'>
             <h3 className='nav-name' id="Home"></h3>
 
-            <div className='row home'>
-                <div className='col'>
+            <div className='rows home'>
+                <div className='grids'>
                     <img src="img/1.jpg" alt="" className='img'/>
                 </div>
 
-                <div className='col'>
+                <div className='grids'>
                     <div className='name-h'>
                         <span className='hi'>Hi</span>, I'm <br />
                         <span>Andhika Bayu</span><br />

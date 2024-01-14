@@ -113,6 +113,19 @@
     font-size: 19px;
 }
 
+.rows{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 600px) {
+    .rows {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
 .bold-about{
     text-decoration: none;
     font-weight: bold;
@@ -396,8 +409,16 @@
 
 @media only screen and (max-width: 600px) {
     .img{
-        width: 300px;
+        width: 270px;
         min-width: 120px;
+    }
+
+    .name{
+        margin-left: 0px;
+    }
+
+    .about{
+        margin-top: 30px;
     }
 
     .row{
@@ -407,17 +428,34 @@
     .col{
         width: 100%;
     }
+
+    .project{
+        margin-top: 30px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
     .about1{
         margin: auto;
+    }
+
+    .grids{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .skills-btn{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .ex-c{
+        padding-right: 5px;
     }
 
     .main{
         margin: auto;
         width: 100%;
-    }
-
-    .skills-btn{
-        margin: auto;
     }
 
     .name-h{
@@ -427,8 +465,20 @@
 
     .card-project{
         align-self: center;
-        width: 100%;
+
         margin: auto;
+    }
+
+    .center-card{
+        margin-bottom: 30px;
+    }
+
+    .img-project{
+        height: 150px;
+    }
+
+    .link{
+        text-align: center;
     }
 
 }

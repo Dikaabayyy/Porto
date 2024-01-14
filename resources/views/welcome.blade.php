@@ -33,11 +33,11 @@
                     </div>
 
                     <div class="modal-body">
-                        <div class="row">
-                            <div class="col">
+                        <div class="rows">
+                            <div class="grids">
                                 <img src="img/project/P1.jpg" class="detail-project" alt="">
                             </div>
-                            <div class="col">
+                            <div class="grids">
                                 <div class="dp">
                                     In this project, my team and I developed a website for people who want to take an English test by offering several packages, such as TOEFL, IELTS, and others. This project is also the first time I have used the Laravel framework as part of the BackEnd, after previously using Codeigniter 3. I developed this project when I was still in college.
                                 </div>
@@ -72,11 +72,11 @@
                     </div>
 
                     <div class="modal-body">
-                        <div class="row">
-                            <div class="col">
+                        <div class="rows">
+                            <div class="grids">
                                 <img src="img/project/P2.jpg" class="detail-project" alt="">
                             </div>
-                            <div class="col">
+                            <div class="grids">
                                 <div class="dp">
                                     In this project, my team developed a website that can be used by doctors to monitor hypertension patients who are undergoing treatment. In this project, I became a FullStack developer using the Laravel framework. In this project I also had time to learn about APIs. With this project I was also able to complete my undergraduate studies with the title "Development of a Pharmaceutical Application for Monitoring Compliance in Website-Based Drug Consumption Using the Sprint Model".
                                 </div>
@@ -111,13 +111,13 @@
                     </div>
 
                     <div class="modal-body">
-                        <div class="row">
-                            <div class="col">
+                        <div class="rows">
+                            <div class="grids">
                                 <img src="img/project/P3.jpg" class="detail-project" alt="">
                             </div>
-                            <div class="col">
+                            <div class="grids">
                                 <div class="dp">
-                                    in this project I created a website that contains information about the skills and abilities that I have had as a web developer for more than 1 year. In this project I also studied and used the ReactJS FrontEnd framework which in the future I will develop further to pair with Laravel BackEnd.
+                                    In this project I created a website that contains information about the skills and abilities that I have had as a web developer for more than 1 year. In this project I also studied and used the ReactJS FrontEnd framework which in the future I will develop further to pair with Laravel BackEnd.
                                 </div>
                                 <div class="link">
                                     <div class="modal-title">

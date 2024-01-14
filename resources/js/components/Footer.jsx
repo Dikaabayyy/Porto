@@ -4,8 +4,8 @@ export default class Footer extends Component {
   render() {
     return (
         <div className='main' id="Contact">
-            <div className='row'>
-                <div className='col'>
+            <div className='rows'>
+                <div className='grids'>
                     <h3 className='about'>Contact Me</h3>
 
                     <form action='/send' method='POST' encType='multipart/form-data'>
@@ -27,7 +27,7 @@ export default class Footer extends Component {
                     </form>
                 </div>
 
-                <div className='col text-center'>
+                <div className='grids text-center'>
                     <h3 className='about'>Social</h3>
 
                     <a href="https://www.instagram.com/dikaabayyy/" target='_blank'><i className="bi bi-instagram icons"></i></a>
@@ -36,7 +36,6 @@ export default class Footer extends Component {
                     <a href="https://www.linkedin.com/in/andhikabayu/" target='_blank'><i className="bi bi-linkedin icons"></i></a>
 
                 </div>
-
 
             </div>
         </div>

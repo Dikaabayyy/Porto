@@ -6,8 +6,8 @@ export default class About extends Component {
         <div className='main'>
                 <h3 className='nav-name' id="About">About Me</h3>
 
-            <div className='row'>
-                <div className='col'>
+            <div className='rows'>
+                <div className='grids'>
                     <h2 className='about'>Get to Know Me</h2>
 
                     <div className='about1' id='about1'>
@@ -24,7 +24,7 @@ export default class About extends Component {
                         I had internship experience when I was in college. These experiences are as follows:
                     </div>
 
-                    <div>
+                    <div className='about-exp'>
                         <table className="table-ex">
                             <tbody>
                                 <tr>
@@ -55,7 +55,7 @@ export default class About extends Component {
                     </div>
                 </div>
 
-                <div className='col'>
+                <div className='grids'>
                     <h1 className='about'>My Skills</h1>
 
                     <div className='skills-btn'>
