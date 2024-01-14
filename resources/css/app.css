@@ -417,6 +417,11 @@
         margin-left: 0px;
     }
 
+    .nav-pills > li > a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     .about{
         margin-top: 30px;
     }
