@@ -417,7 +417,17 @@
         margin-left: 0px;
     }
 
-    .nav-pills > li > a {
+    .nav-pills > li > a{
+        margin-left: 0px;
+        margin-right: 0px;
+
+        &:not(.active):hover {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+    .nav-pills > li > a.active {
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -484,6 +494,10 @@
 
     .link{
         text-align: center;
+    }
+
+    .ex-c{
+        display: none;
     }
 
 }
